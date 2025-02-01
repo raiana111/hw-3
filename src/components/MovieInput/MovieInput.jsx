@@ -19,6 +19,6 @@ const MovieInput = (props) => {
       </button>}
     </div> 
   );
-};
+};  
 
 export default MovieInput;

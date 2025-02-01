@@ -16,7 +16,7 @@ const MovieList = ({ movies, handleEditMovie, handleDeleteMovie, toggleWatched, 
             (index)}>Delete</button>
             {movie.watched && (
               <LikeDislike 
-                liked={movie.liked}
+                liked={movie.liked} 
                 disliked={movie.disliked}
                 onLike={() => toggleLike(index)}
                 onDislike={() => toggleDislike(index)}
