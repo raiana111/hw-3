@@ -17,7 +17,7 @@ const MovieInput = (props) => {
         <button className={styles.button} onClick={props.handleCancelEditing}>
         Cancel
       </button>}
-    </div>
+    </div> 
   );
 };
 
